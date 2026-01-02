@@ -48,7 +48,7 @@ A static website that guides users through selecting and understanding online ho
 ---
 
 ##  Figma Design
-[View Design](YOUR-FIGMA-LINK-HERE)
+[View Design](https://www.figma.com/design/d85OMdSGGlnTFtbzmOnTpO/Online-Service-Payment-Guide?node-id=49-39&t=BINjwEvRIhUsWc26-1)
 
 ---
 
