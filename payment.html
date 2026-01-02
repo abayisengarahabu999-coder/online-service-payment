@@ -1,66 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Payment Process - Online Service Payment Guide</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
 
   <!-- Navigation -->
-  <nav>
-    <div class="nav-container">
-      <h1>Online Service Payment Guide</h1>
-
-      <div class="menu">
-        <div class="menu-icon">☰</div>
-        <ul class="menu-list">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="choose-system.html">Choose System</a></li>
-          <li><a href="guide.html">Guide</a></li>
-          <li><a href="payment.html">Payment</a></li>
-        </ul>
+  <nav class="navbar">
+    <div class="container">
+      <div class="nav-brand">
+        <h2>Online Service Payment Guide</h2>
       </div>
 
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="choose-system.html">Choose System</a></li>
+        <li><a href="guide.html">Guide</a></li>
+        <li><a href="payment.html" class="active">Payment</a></li>
+      </ul>
     </div>
   </nav>
 
-  <!-- Main Content -->
-  <main>
-    <section class="hero">
-      <h2>Payment Process</h2>
-      <p>Learn how to securely complete your payment and what happens next.</p>
-    </section>
-
-    <section class="payment-layout">
-
-      <div class="payment-section">
-        <h3>Payment Methods</h3>
-        <div class="payment-icons">
-          <div class="payment-icon">💳</div>
-          <div class="payment-icon">📱</div>
-        </div>
-        <p>Choose from credit/debit cards or mobile money options for secure transactions.</p>
-      </div>
-
-      <div class="payment-section">
-        <h3>Security & After Payment</h3>
-        <h4>Secure Transactions</h4>
-        <p>All payments are processed through encrypted channels with industry-standard security.</p>
-        <h4>Data Protection</h4>
-        <p>Your information is protected and never shared with third parties.</p>
-        <h4>After Payment</h4>
-        <p>Receive a confirmation email immediately, and setup begins within 24-48 hours.</p>
-      </div>
-
-    </section>
-
-    <div style="text-align: center; margin-top: 2rem;">
-      <a href="success.html" class="btn-primary">Complete Payment</a>
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Payment Process</h1>
+      <p class="hero-subtitle">
+        Learn how to securely complete your payment and what happens next.
+      </p>
     </div>
+  </section>
 
-  </main>
+  <!-- Payment Methods -->
+  <section>
+    <div class="container">
+
+      <h2 class="section-title">Payment Methods</h2>
+
+      <div class="payment-methods">
+        <div class="payment-method">
+          <div class="payment-icon">💳</div>
+          <h3>Card Payment</h3>
+          <p>Pay securely using credit or debit cards.</p>
+        </div>
+
+        <div class="payment-method">
+          <div class="payment-icon">📱</div>
+          <h3>Mobile Money</h3>
+          <p>Fast and secure payments via mobile money services.</p>
+        </div>
+      </div>
+
+      <!-- Security Section -->
+      <div class="security-section">
+        <h3>Security & After Payment</h3>
+
+        <div class="security-features">
+          <div class="security-feature">🔒 Encrypted Transactions</div>
+          <div class="security-feature">🛡️ Data Protection</div>
+          <div class="security-feature">📧 Email Confirmation</div>
+        </div>
+
+        <p style="margin-top:1rem;">
+          All payments are processed securely. After payment, you will receive
+          a confirmation email and setup begins within 24–48 hours.
+        </p>
+      </div>
+
+      <!-- Process Flow -->
+      <div class="process-flow">
+        <div class="process-step">
+          <div class="process-number">1</div>
+          <p>Select your payment method</p>
+        </div>
+        <div class="process-step">
+          <div class="process-number">2</div>
+          <p>Complete secure payment</p>
+        </div>
+        <div class="process-step">
+          <div class="process-number">3</div>
+          <p>Receive confirmation & setup details</p>
+        </div>
+      </div>
+
+      <div style="text-align:center; margin-top:2rem;">
+        <a href="success.html" class="btn btn-primary">
+          Complete Payment
+        </a>
+      </div>
+
+    </div>
+  </section>
 
 </body>
 </html>

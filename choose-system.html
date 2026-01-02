@@ -1,85 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Choose Your System - Online Service Payment Guide</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
 
   <!-- Navigation -->
-  <nav>
-    <div class="nav-container">
-      <h1>Online Service Payment Guide</h1>
-
-      <div class="menu">
-        <div class="menu-icon">☰</div>
-        <ul class="menu-list">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="choose-system.html">Choose System</a></li>
-          <li><a href="guide.html">Guide</a></li>
-          <li><a href="payment.html">Payment</a></li>
-        </ul>
+  <nav class="navbar">
+    <div class="container">
+      <div class="nav-brand">
+        <h2>Online Service Payment Guide</h2>
       </div>
 
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="choose-system.html" class="active">Choose System</a></li>
+        <li><a href="guide.html">Guide</a></li>
+        <li><a href="payment.html">Payment</a></li>
+      </ul>
     </div>
   </nav>
 
-  <!-- Main Content -->
-  <main>
-    <section class="hero">
-      <h2>Choose Your System</h2>
-      <p>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Choose Your System</h1>
+      <p class="hero-subtitle">
         Select the type of online service that best fits your needs.
         Each option is designed for different use cases.
       </p>
-    </section>
+    </div>
+  </section>
 
-    <section class="card-grid">
+  <!-- Services / Cards -->
+  <section class="services">
+    <div class="container">
+      <div class="services-grid">
 
-      <div class="card">
-        <div class="card-icon">🖥️</div>
-        <h3>Website Hosting</h3>
-        <p>
-          Ideal for blogs, portfolios, and company websites that need
-          reliable and scalable hosting.
-        </p>
-        <a href="guide.html" class="btn-primary">Select</a>
+        <div class="service-card">
+          <div class="service-icon">🖥️</div>
+          <h3>Website Hosting</h3>
+          <p class="service-for">
+            Ideal for blogs, portfolios, and company websites.
+          </p>
+          <a href="guide.html" class="btn btn-primary">Select</a>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">🛒</div>
+          <h3>E-commerce System</h3>
+          <p class="service-for">
+            Secure payments, product management, and orders.
+          </p>
+          <a href="guide.html" class="btn btn-primary">Select</a>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">📱</div>
+          <h3>Mobile App Backend</h3>
+          <p class="service-for">
+            Authentication, data storage, and API connectivity.
+          </p>
+          <a href="guide.html" class="btn btn-primary">Select</a>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">🔗</div>
+          <h3>API / Microservice Hosting</h3>
+          <p class="service-for">
+            High-performance APIs and scalable microservices.
+          </p>
+          <a href="guide.html" class="btn btn-primary">Select</a>
+        </div>
+
       </div>
-
-      <div class="card">
-        <div class="card-icon">🛒</div>
-        <h3>E-commerce System</h3>
-        <p>
-          Designed for online stores that require secure payments,
-          product management, and customer orders.
-        </p>
-        <a href="guide.html" class="btn-primary">Select</a>
-      </div>
-
-      <div class="card">
-        <div class="card-icon">📱</div>
-        <h3>Mobile App Backend</h3>
-        <p>
-          Best for mobile applications that need authentication,
-          data storage, and API connectivity.
-        </p>
-        <a href="guide.html" class="btn-primary">Select</a>
-      </div>
-
-      <div class="card">
-        <div class="card-icon">🔗</div>
-        <h3>API / Microservice Hosting</h3>
-        <p>
-          Suitable for developers building APIs or microservices
-          with high performance and scalability.
-        </p>
-        <a href="guide.html" class="btn-primary">Select</a>
-      </div>
-
-    </section>
-  </main>
+    </div>
+  </section>
 
 </body>
 </html>
